@@ -5,7 +5,7 @@ This website is being built with AI-powered generation.
 ## Development Status
 - ✅ Repository created
 - ⏳ Wireframes generated
-- ⏳ Style guide pending
+- ✅ Style guide generated
 - ⏳ Pages pending
 - ⏳ Deployment pending
 
