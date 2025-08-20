@@ -1,0 +1,11 @@
+name: "Testy mc testerson"
+tagline: "Professional Testing Websitew Services"
+phone: "3071234562"
+email: "test@gmail.com"
+address: ""
+city: "Gillette"
+state: "WY"
+zip: "82716"
+hours: "Mon-Fri: 9am-5pm, Sat: 9am-2pm"
+service_areas:
+  - "Gillette"
