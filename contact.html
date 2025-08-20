@@ -3,54 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Testy mc testerson - Contact</title>
     <meta name="description" content="Testy mc testerson in Gillette">
+    <title>Testy mc testerson - Contact</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="bg-light">
     <header class="bg-white shadow">
         <nav class="container flex justify-between items-center py-4">
             <a href="/" class="nav-brand text-2xl font-bold text-primary">Testy mc testerson</a>
-            <ul class="nav-links flex gap-6">
-                <li><a href="contact" class="text-lg active">Contact</a></li>
-            </ul>
+            <div class="nav-links">
+                <a href="/" class="btn btn-sm">Home</a>
+                <a href="/about" class="btn btn-sm">About</a>
+                <a href="/services" class="btn btn-sm">Services</a>
+                <a href="/contact" class="btn btn-sm active">Contact</a>
+            </div>
         </nav>
     </header>
 
-    <section class="hero bg-primary text-white py-12">
-        <div class="container text-center">
-            <h1 class="text-3xl font-bold mb-4">Welcome to Testy mc testerson</h1>
-            <p class="text-xl">Professional Testing Websitew</p>
-        </div>
-    </section>
-
-    <main class="container py-8">
-        <section class="grid grid-2 gap-8">
-            <div class="card shadow p-6">
-                <h2 class="text-2xl font-bold mb-4">Contact Us</h2>
-                <form class="flex flex-col gap-4">
-                    <input type="text" placeholder="Name" class="p-2 border rounded">
-                    <input type="email" placeholder="Email" class="p-2 border rounded">
-                    <textarea placeholder="Message" class="p-2 border rounded" rows="4"></textarea>
-                    <button class="btn btn-primary">Send Message</button>
-                </form>
+    <main>
+        <section class="hero bg-primary py-16">
+            <div class="container text-center text-white">
+                <h1 class="text-3xl font-bold mb-4">Welcome to Testy mc testerson</h1>
+                <p class="text-xl">Professional Testing Websitew</p>
             </div>
+        </section>
 
-            <div class="card shadow p-6">
-                <h2 class="text-2xl font-bold mb-4">Contact Information</h2>
-                <div class="flex flex-col gap-4">
-                    <p class="flex items-center gap-2">
-                        <span class="font-bold">Phone:</span>
-                        <a href="tel:3071234562" class="text-primary">(307) 123-4562</a>
-                    </p>
-                    <p class="flex items-center gap-2">
-                        <span class="font-bold">Email:</span>
-                        <a href="mailto:test@gmail.com" class="text-primary">test@gmail.com</a>
-                    </p>
-                    <p class="flex items-center gap-2">
-                        <span class="font-bold">Location:</span>
-                        <span>Gillette, WY 82716</span>
-                    </p>
+        <section class="content-section py-8">
+            <div class="container">
+                <div class="grid grid-2 gap-8">
+                    <div class="card p-8 shadow">
+                        <h2 class="text-2xl font-bold mb-4">Contact Us</h2>
+                        <form class="flex flex-col gap-4">
+                            <input type="text" placeholder="Name" class="p-2 border rounded">
+                            <input type="email" placeholder="Email" class="p-2 border rounded">
+                            <textarea placeholder="Message" class="p-2 border rounded" rows="4"></textarea>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+
+                    <div class="card p-8 shadow">
+                        <h2 class="text-2xl font-bold mb-4">Contact Information</h2>
+                        <div class="flex flex-col gap-4">
+                            <p><strong>Phone:</strong> (307) 123-4562</p>
+                            <p><strong>Email:</strong> test@gmail.com</p>
+                            <p><strong>Location:</strong> Gillette, WY 82716</p>
+                            <div class="mt-4">
+                                <h3 class="text-xl font-bold mb-2">Business Hours</h3>
+                                <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
+                                <p>Saturday - Sunday: Closed</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -66,16 +69,19 @@
                 <div>
                     <h3 class="text-xl font-bold mb-4">Contact</h3>
                     <p>Gillette, WY 82716</p>
-                    <p>(307) 123-4562</p>
+                    <p>Phone: (307) 123-4562</p>
+                    <p>Email: test@gmail.com</p>
                 </div>
                 <div>
-                    <h3 class="text-xl font-bold mb-4">Hours</h3>
-                    <p>Monday - Friday: 9am - 5pm</p>
-                    <p>Saturday - Sunday: Closed</p>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <a href="/" class="block text-white mb-2">Home</a>
+                    <a href="/about" class="block text-white mb-2">About</a>
+                    <a href="/services" class="block text-white mb-2">Services</a>
+                    <a href="/contact" class="block text-white">Contact</a>
                 </div>
             </div>
-            <div class="text-center mt-8 pt-8 border-secondary">
-                <p>&copy; 2024 Testy mc testerson. All rights reserved.</p>
+            <div class="text-center mt-8 pt-8 border-primary">
+                <p>&copy; 2025 Testy mc testerson. All rights reserved.</p>
             </div>
         </div>
     </footer>
