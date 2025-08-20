@@ -2,7 +2,7 @@
    PG Sites - Professional Website CSS Framework
    Generated with AI-powered style guide customization
    ============================================================================= */
-/* CSS Variables Updated: 2025-08-20T20:54:53.528Z */
+/* CSS Variables Updated: 2025-08-20T21:07:07.818Z */
 
 
 /* CSS Reset & Base Styles */
@@ -38,9 +38,9 @@ body {
   --background-color: #ffffff;
   --accent-color: #f59e0b;
   --secondary-color: white;
-  --primary-color: #158a41;
+  --primary-color: #fe0101;
   /* Brand Colors */
-  --color-primary: #158a41;
+  --color-primary: #fe0101;
   --color-secondary: white;
   --color-accent: #f59e0b;
   --color-text: #1f2937;
