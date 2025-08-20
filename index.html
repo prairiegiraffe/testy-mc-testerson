@@ -10,15 +10,17 @@
 <body class="bg-light">
     <header class="bg-white shadow">
         <nav class="container flex justify-between items-center py-4">
-            <a href="/" class="nav-brand text-xl font-bold">Testy mc testerson</a>
+            <div class="nav-brand">
+                <a href="/" class="text-2xl font-bold text-primary">Testy mc testerson</a>
+            </div>
             <div class="nav-links">
-                <a href="/" class="px-4 py-2 text-primary active">Home</a>
+                <a href="/" class="px-4 py-2 text-dark active">Home</a>
             </div>
         </nav>
     </header>
 
-    <section class="hero bg-primary text-white py-16">
-        <div class="container text-center">
+    <section class="hero bg-primary py-16">
+        <div class="container text-center text-white">
             <h1 class="text-3xl font-bold mb-4">Welcome to Testy mc testerson</h1>
             <p class="text-xl mb-8">Professional Testing Websitew</p>
             <a href="#contact" class="btn btn-accent">Contact Us</a>
@@ -27,30 +29,34 @@
 
     <main class="py-12">
         <section class="container mb-8">
-            <h2 class="text-2xl font-bold text-center mb-8">Our Services</h2>
+            <div class="section-header text-center mb-8">
+                <h2 class="text-2xl font-bold">Our Services</h2>
+            </div>
             <div class="grid grid-3 gap-4">
                 <div class="card p-6 shadow">
                     <h3 class="text-xl font-semibold mb-4">Testing Services</h3>
-                    <p class="text-base">Professional testing solutions for your needs</p>
+                    <p class="text-dark">Professional testing solutions for your needs</p>
                 </div>
                 <div class="card p-6 shadow">
                     <h3 class="text-xl font-semibold mb-4">Quality Assurance</h3>
-                    <p class="text-base">Comprehensive quality testing services</p>
+                    <p class="text-dark">Ensuring the highest standards</p>
                 </div>
                 <div class="card p-6 shadow">
-                    <h3 class="text-xl font-semibold mb-4">Consultation</h3>
-                    <p class="text-base">Expert testing consultation services</p>
+                    <h3 class="text-xl font-semibold mb-4">Consulting</h3>
+                    <p class="text-dark">Expert guidance and support</p>
                 </div>
             </div>
         </section>
 
-        <section id="contact" class="bg-secondary py-8">
-            <div class="container text-center">
-                <h2 class="text-2xl font-bold text-white mb-4">Contact Us</h2>
-                <p class="text-white mb-4">Get in touch with our team</p>
-                <div class="flex justify-center gap-4">
-                    <a href="tel:3071234562" class="btn btn-primary">Call (307) 123-4562</a>
-                    <a href="mailto:test@gmail.com" class="btn btn-accent">Email Us</a>
+        <section class="bg-light py-8">
+            <div class="container">
+                <div class="card p-8 shadow-lg bg-white">
+                    <div class="text-center">
+                        <h2 class="text-2xl font-bold mb-4">Get in Touch</h2>
+                        <p class="mb-4">Serving Gillette, WY and surrounding areas</p>
+                        <a href="tel:3071234562" class="btn btn-primary mx-2">Call (307) 123-4562</a>
+                        <a href="mailto:test@gmail.com" class="btn btn-secondary mx-2">Email Us</a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -58,15 +64,12 @@
 
     <footer class="bg-dark text-white py-8">
         <div class="container">
-            <div class="grid grid-2 gap-8">
+            <div class="flex justify-between items-center">
                 <div>
-                    <h3 class="text-xl font-bold mb-4">Testy mc testerson</h3>
-                    <p>Gillette, WY 82716</p>
-                    <p>Phone: (307) 123-4562</p>
-                    <p>Email: test@gmail.com</p>
+                    <p class="text-sm">&copy; 2025 Testy mc testerson. All rights reserved.</p>
                 </div>
-                <div class="text-right">
-                    <p class="text-sm">&copy; 2024 Testy mc testerson. All rights reserved.</p>
+                <div>
+                    <p class="text-sm">Gillette, WY 82716</p>
                 </div>
             </div>
         </div>
