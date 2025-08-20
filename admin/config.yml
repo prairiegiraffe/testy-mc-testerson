@@ -1,0 +1,6 @@
+# Configuration for Testy mc testerson Website
+# This file is used by the custom CMS system
+repository: prairiegiraffe/testy-mc-testerson
+branch: main
+site_name: Testy mc testerson
+generated_at: 2025-08-20T18:32:31.740Z
