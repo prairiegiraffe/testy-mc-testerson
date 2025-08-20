@@ -12,10 +12,10 @@
         <nav class="container flex justify-between items-center py-4">
             <a href="/" class="nav-brand text-2xl font-bold text-primary">Testy mc testerson</a>
             <div class="nav-links">
-                <a href="/" class="p-2 text-dark">Home</a>
-                <a href="/about" class="p-2 text-dark active">About</a>
-                <a href="/services" class="p-2 text-dark">Services</a>
-                <a href="/contact" class="p-2 text-dark">Contact</a>
+                <a href="/" class="px-4 py-2">Home</a>
+                <a href="/about" class="px-4 py-2 active">About</a>
+                <a href="/services" class="px-4 py-2">Services</a>
+                <a href="/contact" class="px-4 py-2">Contact</a>
             </div>
         </nav>
     </header>
@@ -27,51 +27,65 @@
         </div>
     </section>
 
-    <main class="container py-8">
-        <section class="content-section my-8">
+    <main class="container my-8">
+        <section class="content-section mb-8">
             <h2 class="section-title text-2xl font-bold mb-4">About Us</h2>
             <div class="grid grid-2 gap-8">
                 <div class="card p-6 bg-white shadow rounded">
                     <h3 class="text-xl font-semibold mb-4">Our Company</h3>
-                    <p class="text-base">Professional testing services in Gillette, Wyoming</p>
+                    <p class="text-base">Professional testing services in Gillette, Wyoming.</p>
                 </div>
                 <div class="card p-6 bg-white shadow rounded">
                     <h3 class="text-xl font-semibold mb-4">Location</h3>
                     <p class="text-base">Gillette, WY 82716</p>
+                    <p class="text-base mt-4">
+                        <a href="tel:3071234562" class="text-primary">307-123-4562</a><br>
+                        <a href="mailto:test@gmail.com" class="text-primary">test@gmail.com</a>
+                    </p>
                 </div>
             </div>
         </section>
 
-        <section class="content-section my-8">
-            <div class="card p-8 bg-secondary text-white rounded">
-                <h2 class="text-2xl font-bold mb-4">Contact Us</h2>
-                <p class="text-lg">Phone: <a href="tel:3071234562" class="text-white">307-123-4562</a></p>
-                <p class="text-lg">Email: <a href="mailto:test@gmail.com" class="text-white">test@gmail.com</a></p>
+        <section class="content-section mb-8">
+            <h2 class="section-title text-2xl font-bold mb-4">Our Services</h2>
+            <div class="grid grid-3 gap-6">
+                <div class="card p-6 bg-white shadow rounded">
+                    <h3 class="text-xl font-semibold mb-4">Testing Services</h3>
+                    <p class="text-base">Professional website testing solutions</p>
+                </div>
+                <div class="card p-6 bg-white shadow rounded">
+                    <h3 class="text-xl font-semibold mb-4">Quality Assurance</h3>
+                    <p class="text-base">Comprehensive QA services</p>
+                </div>
+                <div class="card p-6 bg-white shadow rounded">
+                    <h3 class="text-xl font-semibold mb-4">Web Solutions</h3>
+                    <p class="text-base">Professional web testing</p>
+                </div>
             </div>
         </section>
     </main>
 
-    <footer class="bg-dark text-white py-8 mt-8">
+    <footer class="bg-dark text-white py-8">
         <div class="container">
-            <div class="grid grid-3 gap-8">
+            <div class="grid grid-2 gap-8">
                 <div>
                     <h3 class="text-xl font-semibold mb-4">Testy mc testerson</h3>
-                    <p>Professional Testing Services</p>
-                </div>
-                <div>
-                    <h3 class="text-xl font-semibold mb-4">Contact</h3>
                     <p>Gillette, WY 82716</p>
-                    <p>307-123-4562</p>
+                    <p class="mt-2">
+                        <a href="tel:3071234562" class="text-white">307-123-4562</a>
+                    </p>
                 </div>
                 <div>
-                    <h3 class="text-xl font-semibold mb-4">Navigation</h3>
-                    <a href="/" class="block text-white py-1">Home</a>
-                    <a href="/about" class="block text-white py-1">About</a>
-                    <a href="/services" class="block text-white py-1">Services</a>
-                    <a href="/contact" class="block text-white py-1">Contact</a>
+                    <h3 class="text-xl font-semibold mb-4">Quick Links</h3>
+                    <nav class="flex flex-col gap-2">
+                        <a href="/" class="text-white">Home</a>
+                        <a href="/about" class="text-white">About</a>
+                        <a href="/services" class="text-white">Services</a>
+                        <a href="/contact" class="text-white">Contact</a>
+                    </nav>
                 </div>
             </div>
-            <div class="text-center mt-8 pt-8 border-secondary">
+            <div class="text-center mt-8 pt-8 border-primary">
                 <p>&copy; 2025 Testy mc testerson. All rights reserved.</p>
             </div>
         </div>
