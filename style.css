@@ -2,6 +2,8 @@
    PG Sites - Professional Website CSS Framework
    Generated with AI-powered style guide customization
    ============================================================================= */
+/* CSS Variables Updated: 2025-08-21T00:42:23.573Z */
+
 
 /* CSS Reset & Base Styles */
 *, *::before, *::after {
@@ -26,12 +28,23 @@ body {
 
 /* CSS Custom Properties (Variables) */
 :root {
+  --section-gap: 40px;
+  --flex-gap: 12px;
+  --grid-gap: 20px;
+  --container-gap: 20px;
+  --font-primary: Courier New, monospace;
+  --button-radius: 6px;
+  --text-color: #1f2937;
+  --background-color: #f0f0f0;
+  --accent-color: #f59e0b;
+  --secondary-color: white;
+  --primary-color: #fe0101;
   /* Brand Colors */
-  --color-primary: #2563eb;
-  --color-secondary: #64748b;
+  --color-primary: #fe0101;
+  --color-secondary: white;
   --color-accent: #f59e0b;
   --color-text: #1f2937;
-  --color-background: #ffffff;
+  --color-background: #f0f0f0;
   --color-light: #f8fafc;
   --color-dark: #374151;
   --color-success: #10b981;
